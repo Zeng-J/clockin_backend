@@ -1,0 +1,49 @@
+Arguments: 
+  D:\software\program\nodejs\node.exe D:\software\program\nodejs\node_modules\yarn\bin\yarn.js add mysqll
+
+PATH: 
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\software\program\Microsoft VS Code\bin;D:\software\program\nvm;D:\software\program\nodejs;D:\software\program\Git\cmd;;D:\software\program\Tencent\微信web开发者工具\dll;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MSI\AppData\Local\Microsoft\WindowsApps;D:\software\program\msys64\mingw64\bin;D:\software\program\nvm;D:\software\program\nodejs
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mysqll: Not found
+      at Request.params.callback [as _callback] (D:\software\program\nvm\v14.19.1\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (D:\software\program\nvm\v14.19.1\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (D:\software\program\nvm\v14.19.1\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (D:\software\program\nvm\v14.19.1\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "study-backend",
+    "version": "1.0.0",
+    "description": "学习打卡后端",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "zengjie",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
